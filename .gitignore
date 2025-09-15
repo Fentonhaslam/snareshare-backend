@@ -1,4 +1,12 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Local env
 .env
 *.pem
 aws-credentials.json
+
+# Build artifacts
+dist/
+.next/
+.vercel/
